@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(70, 160, 160);
+    text-align: center;
+}
+.head{
+    background-color: aqua;
+    height: 5rem;
+    width: 100%;
+    line-height: 5rem;
+    border-bottom: 0.1rem solid black;
+    position: sticky;
+}
+
+#img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ }
+
+.container{
+    margin-top: 4rem;
+ }
+
+.btn{
+  margin-top: 3rem;
+ }
+
+.choose:hover{
+    cursor: pointer;
+    color: #f51111;
+    opacity: 0.3;
+}
+
+.coin-image{
+    height: 180px;
+    width: 200px;
+}
+
+.btn1{
+    background-color: red;
+    color: #ffff;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    /* border: none; */
+    /* box-shadow: 5px; */
+ }
+.btn1:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    color: #f51111;
+}
+.hide{
+    display: none;
+ }
+
+ .msg-container{
+  margin-top: 2rem;
+ }
+
+.para{
+    font-family: sans-serif;
+}
+
+.choice{
+    margin-top: 2rem;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose{
+    height: 2rem;
+    width: 6rem;
+    gap: 3rem;
+    border: 0.1rem solid black;
+    line-height: 2rem ;
+    background-color: rgb(33, 189, 189);
+    border-radius: 5rem;
+    color: blue;
+}
